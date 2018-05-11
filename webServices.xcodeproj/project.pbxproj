@@ -13,6 +13,7 @@
 		3D07976120A642E7003CED8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D07975F20A642E7003CED8F /* LaunchScreen.storyboard */; };
 		3D07976920A64381003CED8F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07976820A64381003CED8F /* PhotosViewController.swift */; };
 		3D07976B20A645FB003CED8F /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07976A20A645FB003CED8F /* FlickrAPI.swift */; };
+		3D07976D20A64C73003CED8F /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07976C20A64C73003CED8F /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D07976220A642E7003CED8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D07976820A64381003CED8F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		3D07976A20A645FB003CED8F /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		3D07976C20A64C73003CED8F /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3D07976220A642E7003CED8F /* Info.plist */,
 				3D07976820A64381003CED8F /* PhotosViewController.swift */,
 				3D07976A20A645FB003CED8F /* FlickrAPI.swift */,
+				3D07976C20A64C73003CED8F /* PhotoStore.swift */,
 			);
 			path = webServices;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3D07976B20A645FB003CED8F /* FlickrAPI.swift in Sources */,
 				3D07975720A642E6003CED8F /* AppDelegate.swift in Sources */,
+				3D07976D20A64C73003CED8F /* PhotoStore.swift in Sources */,
 				3D07976920A64381003CED8F /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
